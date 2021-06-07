@@ -41,8 +41,9 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-    spec.vendored_frameworks  = "FQDateTimeSDK.framework" #我的动态库和本文件同级
-  # spec.frameworks = "SomeFramework", "AnotherFramework"   多个库的设置
+    spec.vendored_frameworks  = 'FQDateTimeSDK.framework' #我的动态库和本文件同级
+    spec.frameworks = "Foundation", "UIKit"   #多个库的设置
+    spec.requires_arc   = true
 
   # spec.library   = "iconv"          静态库在这里设置
   # spec.libraries = "iconv", "xml2"
