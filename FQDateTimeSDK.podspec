@@ -41,9 +41,10 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-    spec.vendored_frameworks  = 'FQDateTimeSDK.framework' #我的动态库和本文件同级
-    spec.frameworks = "Foundation", "UIKit"   #多个库的设置
-    spec.requires_arc   = true
+    spec.vendored_frameworks  = "FQDateTimeSDK.framework" #我的动态库和本文件同级
+    #spec.frameworks = "Foundation", "UIKit"   #多个库的设置
+    #spec.requires_arc   = true  支持ARC
+    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
   # spec.library   = "iconv"          静态库在这里设置
   # spec.libraries = "iconv", "xml2"
