@@ -5,9 +5,15 @@
 > iOS年月日、时分秒选择器。
 > 在原生控件的基础上增加`秒`的选择，和原生PickerView一样的丝滑。
 
-![Simulator Screen Shot - iPhone 12 - 2021-06-07 at 17 08 15](https://user-images.githubusercontent.com/23627803/121637253-afad5700-cabb-11eb-995d-670320281613.png)
+<div  align = 'center' >
+<img src="https://user-images.githubusercontent.com/23627803/121637253-afad5700-cabb-11eb-995d-670320281613.png" width = 30% height = 30% >
+<img src="https://user-images.githubusercontent.com/23627803/121647056-8b0bac00-cac8-11eb-9d78-8f72979268e4.png" width = 30% height = 30% >
+<img src="https://user-images.githubusercontent.com/23627803/121647086-9232ba00-cac8-11eb-8ee9-b0a6404b22ab.png" width = 30% height = 30% >
+    <img src="https://user-images.githubusercontent.com/23627803/121642635-606b2480-cac3-11eb-8c72-f6edcee614b1.gif" width = 50% height = 50% >
 
-https://user-images.githubusercontent.com/23627803/121637261-b2a84780-cabb-11eb-8f81-8fad6284f9d7.mp4
+</div>
+
+
 
 
 
