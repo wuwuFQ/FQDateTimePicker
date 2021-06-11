@@ -1,7 +1,14 @@
 ![最美女帝](https://user-images.githubusercontent.com/23627803/121161116-417c5080-c87f-11eb-94cb-dab46a05360b.jpeg)
 
 # FQDateTimeSDK
-> iOS年月日、时分秒选择器
+> iOS年月日、时分秒选择器。
+> 在原生控件的基础上增加`秒`的选择，和原生PickerView一样的丝滑。
+
+![Simulator Screen Shot - iPhone 12 - 2021-06-07 at 17 08 15](https://user-images.githubusercontent.com/23627803/121637253-afad5700-cabb-11eb-995d-670320281613.png)
+
+https://user-images.githubusercontent.com/23627803/121637261-b2a84780-cabb-11eb-8f81-8fad6284f9d7.mp4
+
+
 
 ## 功能介绍
 - 支持年月日模式
