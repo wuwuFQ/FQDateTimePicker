@@ -1,6 +1,7 @@
 ![最美女帝](https://user-images.githubusercontent.com/23627803/121161116-417c5080-c87f-11eb-94cb-dab46a05360b.jpeg)
 
 # FQDateTimeSDK
+[博客地址](https://wuwufq.blog.csdn.net/article/details/117815524)
 > iOS年月日、时分秒选择器。
 > 在原生控件的基础上增加`秒`的选择，和原生PickerView一样的丝滑。
 
@@ -79,3 +80,4 @@ picker.delegate = self;
 picker.maxDate = [NSDate new];
 [picker show];
 ```
+>  初始版本功能不多，尤其是不能自定义UI，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
