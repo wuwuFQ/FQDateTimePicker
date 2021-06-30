@@ -2,7 +2,7 @@
 
 # FQDateTimeSDK
 [博客地址](https://wuwufq.blog.csdn.net/article/details/117815524)
-> iOS年月日、时分秒选择器。
+> iOS时间选择器，日期选择器；年月日、时分秒选择器。
 > 在原生控件的基础上增加`秒`的选择，和原生PickerView一样的丝滑。
 
 <div  align = 'center' >
