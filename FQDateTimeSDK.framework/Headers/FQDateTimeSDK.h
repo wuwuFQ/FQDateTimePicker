@@ -2,7 +2,7 @@
 //  FQDateTimeSDK.h
 //  FQDateTimeSDK
 //
-//  Created by TKiOS on 2021/6/3.
+//  Created by TKiOS on 2022/4/21.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,5 +14,4 @@ FOUNDATION_EXPORT double FQDateTimeSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char FQDateTimeSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FQDateTimeSDK/PublicHeader.h>
-
 
