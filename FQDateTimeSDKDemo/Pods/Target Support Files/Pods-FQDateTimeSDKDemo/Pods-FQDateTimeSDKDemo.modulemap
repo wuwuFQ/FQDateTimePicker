@@ -1,0 +1,6 @@
+framework module Pods_FQDateTimeSDKDemo {
+  umbrella header "Pods-FQDateTimeSDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
