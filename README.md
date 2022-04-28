@@ -15,6 +15,10 @@
 
 
 # 更新记录
+- 1.0.1版本 2022-04-29
+    1. 日期的单位支持自定义
+    2. 修复每月天数不实时刷新
+    
 - 1.0版本 2022-04-21
     1. 增加更多picker模式：支持年月、年月日、时分、时分秒、年月日时分、年月日时分秒
     2. 可自定义字体大小和颜色
@@ -46,15 +50,24 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0'
+pod 'FQDateTimeSDK', '~> 1.0.1'
 ```
-2. 在终端 cd 到你的项目根路径
+2. 在终端 cd 到你的项目根路径 
+- 下载
 ```bash
 pod install
 ```
 或者
 ```bash
 pod install --no-repo-update
+```
+- 更新
+```bash
+pod update
+```
+或者
+```bash
+pod update FQDateTimeSDK --no-repo-update
 ```
 ## 使用案列
 1. 在用到时间选择器的地方引用头文件
