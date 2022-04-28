@@ -96,14 +96,17 @@ pod update FQDateTimeSDK --no-repo-update
 ```
 - 年月日选择器
 ```
-FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
-pickerView.delegate = self;
-pickerView.pickerModel = indexPath.row;
-pickerView.cancelColor = [UIColor greenColor];
-pickerView.pickerColor = [UIColor systemPinkColor];
-pickerView.title = @"wuwuFQ";
-pickerView.titleColor = [UIColor redColor];
-[pickerView showPicker];
+    FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
+    pickerView.delegate = self;
+    pickerView.pickerModel = FQDateTimePickerModelDate;
+    pickerView.cancelColor = [UIColor greenColor];
+    pickerView.pickerColor = [UIColor systemPinkColor];
+    pickerView.title = @"wuwuFQ";
+    pickerView.titleColor = [UIColor redColor];
+    pickerView.unitsData = nil;
+    pickerView.minDate = [NSDate new];
+    [pickerView showPicker];
+
 ```
 
 >  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
