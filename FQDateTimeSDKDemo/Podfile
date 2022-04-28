@@ -8,6 +8,6 @@ target 'FQDateTimeSDKDemo' do
   # Pods for FQDateTimeSDKDemo
 
  
-pod 'FQDateTimeSDK'
+ pod 'FQDateTimeSDK', '~> 1.0.1'
 
 end

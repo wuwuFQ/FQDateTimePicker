@@ -15,11 +15,11 @@
 			dependencies = (
 			);
 			name = FQDateTimeSDK;
-			productName = FQDateTimeSDK;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0BBCC47D9B71F04506BF9077673FE5F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		698A145FB99FA66CB40779C41C4BB030 /* Pods-FQDateTimeSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C140EFF351CD52845FA619F1564183 /* Pods-FQDateTimeSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C747D56F6CF543B5E7279239C3C1C889 /* Pods-FQDateTimeSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7F6CB7D3898482710D2CCC9110A955 /* Pods-FQDateTimeSDKDemo-dummy.m */; };
 /* End PBXBuildFile section */
@@ -41,10 +41,11 @@
 		39C140EFF351CD52845FA619F1564183 /* Pods-FQDateTimeSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FQDateTimeSDKDemo-umbrella.h"; sourceTree = "<group>"; };
 		4E7F6CB7D3898482710D2CCC9110A955 /* Pods-FQDateTimeSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FQDateTimeSDKDemo-dummy.m"; sourceTree = "<group>"; };
 		606DCFAC3EE179B39EF0EBD5490681F0 /* FQDateTimeSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FQDateTimeSDK.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7AF49FB4D2F4A0EBC876B2D6D627DEEA /* FQDateTimeSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FQDateTimeSDK.debug.xcconfig; sourceTree = "<group>"; };
 		865AFF0E6E413C79F6AC6C7F850A2D63 /* Pods-FQDateTimeSDKDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FQDateTimeSDKDemo"; path = Pods_FQDateTimeSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9D7925C3E00F47F92ECC56B802E2AD /* Pods-FQDateTimeSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FQDateTimeSDKDemo-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CBCCD62943ED1192292526B5E0FE26E1 /* Pods-FQDateTimeSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FQDateTimeSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DD4AC1952E36EDB165567FC276711344 /* Pods-FQDateTimeSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FQDateTimeSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EBF628803B11245CCE0EAA7EEDAF37E0 /* FQDateTimeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FQDateTimeSDK.framework; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BBCC47D9B71F04506BF9077673FE5F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				81D40041D5F42447A3E1AB4827E0BF71 /* Frameworks */,
 				1BD2C39BF431EF51235AB71CF2BFFFDB /* Support Files */,
 			);
+			name = FQDateTimeSDK;
 			path = FQDateTimeSDK;
 			sourceTree = "<group>";
 		};

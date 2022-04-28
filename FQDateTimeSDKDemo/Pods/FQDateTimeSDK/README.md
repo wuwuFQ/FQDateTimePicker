@@ -14,6 +14,10 @@
 </div>
 
 
+# 更新记录
+- 1.0版本 2022-04-21
+    1. 增加更多picker模式：支持年月、年月日、时分、时分秒、年月日时分、年月日时分秒
+    2. 可自定义字体大小和颜色
 
 
 
@@ -23,7 +27,9 @@
 - 支持年月日时分秒模式
 - 支持默认时间和最大、最小时间
 - 支持标题的设置，默认为空
-- 目前不支持UI自定义
+- 字体大小和颜色可以自定义
+
+
 ## 集成方式
 ### 手动集成
 1. 把项目`clone`或`Download ZIP`到本地
@@ -38,9 +44,17 @@ _这里默认大家对cocoaPods都是信手拈来的_
 ```bash
 pod 'FQDateTimeSDK'
 ```
+或者
+```bash
+pod 'FQDateTimeSDK', '~> 1.0'
+```
 2. 在终端 cd 到你的项目根路径
 ```bash
 pod install
+```
+或者
+```bash
+pod install --no-repo-update
 ```
 ## 使用案列
 1. 在用到时间选择器的地方引用头文件
@@ -55,35 +69,28 @@ pod install
 ```
 3. 实现代理方法
 ```
-//点击确定事件
-- (void)doneActionWithTime:(nonnull NSString *)time {
-    NSLog(@"time==%@", time);
+- (void)cancelAction {
+    NSLog(@"wuwuFQ：cancelAction");
 }
-//滚动事件
-- (void)scrollActionWithTime:(nonnull NSString *)time {
-    NSLog(@"time==%@", time);
+
+- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+    NSLog(@"wuwuFQ：%@---%@", date, dateStr);
+}
+
+- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+    NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 ```
 - 年月日选择器
 ```
-FQDateTimePickerView *picker = [[FQDateTimePickerView alloc] initWithFQDateTimePickerModel:FQDateTimePickerModelDate];
-picker.title = @"FQDateTime";
-picker.delegate = self;
-picker.minDate = [NSDate new];
-[picker show];
+FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
+pickerView.delegate = self;
+pickerView.pickerModel = indexPath.row;
+pickerView.cancelColor = [UIColor greenColor];
+pickerView.pickerColor = [UIColor systemPinkColor];
+pickerView.title = @"wuwuFQ";
+pickerView.titleColor = [UIColor redColor];
+[pickerView showPicker];
 ```
-- 时分秒选择器
-```
-FQDateTimePickerView *picker = [[FQDateTimePickerView alloc] initWithFQDateTimePickerModel:FQDateTimePickerModelTime];
-picker.delegate = self;
-picker.maxDate = [NSDate new];
-[picker show];
-```
-- 年月日时分秒选择器
-```
-FQDateTimePickerView *picker = [[FQDateTimePickerView alloc] initWithFQDateTimePickerModel:FQDateTimePickerModelDateTime];
-picker.delegate = self;
-picker.maxDate = [NSDate new];
-[picker show];
-```
->  初始版本功能不多，尤其是不能自定义UI，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
+
+>  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
