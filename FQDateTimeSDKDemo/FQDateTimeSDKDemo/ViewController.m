@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  FQDateTimeSDKDemo
+//  FQDateTimeDemo
 //
-//  Created by wuwuFQ on 2022/4/21.
+//  Created by wuwuFQ on 2022/4/28.
 //
 
 #import "ViewController.h"
@@ -72,6 +72,8 @@
     pickerView.pickerColor = [UIColor systemPinkColor];
     pickerView.title = @"wuwuFQ";
     pickerView.titleColor = [UIColor redColor];
+    pickerView.unitsData = nil;
+    pickerView.minDate = [NSDate new];
     [pickerView showPicker];
 }
 - (void)cancelAction {

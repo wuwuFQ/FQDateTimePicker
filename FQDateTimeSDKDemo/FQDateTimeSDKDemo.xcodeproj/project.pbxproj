@@ -15,9 +15,6 @@
 		B618BC83281199DF0089C6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B618BC82281199DF0089C6A3 /* Assets.xcassets */; };
 		B618BC86281199DF0089C6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B618BC84281199DF0089C6A3 /* LaunchScreen.storyboard */; };
 		B618BC89281199DF0089C6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC88281199DF0089C6A3 /* main.m */; };
-		B618BC93281199E00089C6A3 /* FQDateTimeSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */; };
-		B618BC9D281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */; };
-		B618BC9F281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +50,7 @@
 		B618BC87281199DF0089C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B618BC88281199DF0089C6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B618BC8E281199E00089C6A3 /* FQDateTimeSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoTests.m; sourceTree = "<group>"; };
 		B618BC98281199E00089C6A3 /* FQDateTimeSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITests.m; sourceTree = "<group>"; };
-		B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
 		D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQDateTimeSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +94,6 @@
 				D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */,
 				38DFEA43F4344DD65B243BF3 /* Pods-FQDateTimeSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -108,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				B618BC75281199D90089C6A3 /* FQDateTimeSDKDemo */,
-				B618BC91281199E00089C6A3 /* FQDateTimeSDKDemoTests */,
-				B618BC9B281199E00089C6A3 /* FQDateTimeSDKDemoUITests */,
 				B618BC74281199D90089C6A3 /* Products */,
 				4A775A43CC9A4BC81F802406 /* Pods */,
 				44A92AA357DBCE8597C6EF7A /* Frameworks */,
@@ -142,23 +133,6 @@
 				B618BC88281199DF0089C6A3 /* main.m */,
 			);
 			path = FQDateTimeSDKDemo;
-			sourceTree = "<group>";
-		};
-		B618BC91281199E00089C6A3 /* FQDateTimeSDKDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */,
-			);
-			path = FQDateTimeSDKDemoTests;
-			sourceTree = "<group>";
-		};
-		B618BC9B281199E00089C6A3 /* FQDateTimeSDKDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */,
-				B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */,
-			);
-			path = FQDateTimeSDKDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,7 +320,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC93281199E00089C6A3 /* FQDateTimeSDKDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC9F281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */,
-				B618BC9D281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
