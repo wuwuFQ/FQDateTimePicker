@@ -46,7 +46,7 @@
 ![image](https://user-images.githubusercontent.com/23627803/121634046-80e0b200-cab6-11eb-8a93-e853bddddb7e.png)
 3. 如果项目报错 设置 `Embed&Sign`
 ![image](https://user-images.githubusercontent.com/23627803/121634466-2bf16b80-cab7-11eb-9024-b3e4afa18941.png)
-4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimeSDK.framework' was buil `
+4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimeSDK.framework' was built for iOS + iOS Simulator. `
 ![Xnip2022-05-14_22-26-55](https://user-images.githubusercontent.com/23627803/168431873-9f4bb708-9a7e-44ee-8989-77524b38e0d0.jpg)
 
    
@@ -59,7 +59,7 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0.1'
+pod 'FQDateTimeSDK', '~> 1.0.2'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
