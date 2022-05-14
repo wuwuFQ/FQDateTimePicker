@@ -22,16 +22,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// 确认操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
 @optional
 /// 取消操作
-- (void)cancelAction;
+/// @param target 用于区分pickerView
+- (void)cancelActionWithTarget:(NSInteger)target;
 
 /// 滚动操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
 @end
 
@@ -76,11 +79,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, null_unspecified) NSArray *unitsData;
 
 
+/*----------------   other  ------------------------*/
 @property (nonatomic, weak) id<FQDateTimePickerViewDelegate> delegate;
 
 /// 选择器的枚举 默认FQDateTimePickerModelDate
 @property (nonatomic, assign) FQDateTimePickerModel pickerModel;
 
+/// pickerView的tag  用于回调区分
+@property (nonatomic, assign) NSInteger target;
 
 ///请在展示之前，设置好需要的属性
 - (void)showPicker;

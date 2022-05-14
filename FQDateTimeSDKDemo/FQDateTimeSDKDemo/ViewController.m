@@ -76,16 +76,16 @@
     pickerView.minDate = [NSDate new];
     [pickerView showPicker];
 }
-- (void)cancelAction {
+- (void)cancelActionWithTarget:(NSInteger)target {
     NSLog(@"wuwuFQ：cancelAction");
 }
 
-- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
     self.contentLabel.text = dateStr;
 }
 
-- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 
