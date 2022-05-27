@@ -41,6 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FQDateTimePickerView : UIView
 /*----------------   UI  ------------------------*/
+/// 遮罩背景色
+@property (nonatomic, strong) UIColor *maskBackgroundColor;
+
 ///确定按钮文本
 @property (nonatomic, copy) NSString *confirmText;
 ///确定按钮颜色 默认black
@@ -80,16 +83,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /*----------------   other  ------------------------*/
+/// Protocol
 @property (nonatomic, weak) id<FQDateTimePickerViewDelegate> delegate;
 
 /// 选择器的枚举 默认FQDateTimePickerModelDate
 @property (nonatomic, assign) FQDateTimePickerModel pickerModel;
 
-/// pickerView的tag  用于回调区分
+/// pickerView的tag  用于区分回调
 @property (nonatomic, assign) NSInteger target;
 
 ///请在展示之前，设置好需要的属性
 - (void)showPicker;
+
 @end
 
 NS_ASSUME_NONNULL_END

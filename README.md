@@ -16,6 +16,9 @@
 
 # 更新记录
 
+- 1.0.3版本 2022-05-27
+    1. 增加maskBackgroundColor，可以修改遮罩背景色
+
 - 1.0.2版本 2022-05-14
     1. 增加target，用以区分pickerView
 
@@ -59,7 +62,7 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0.2'
+pod 'FQDateTimeSDK', '~> 1.0.3'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
