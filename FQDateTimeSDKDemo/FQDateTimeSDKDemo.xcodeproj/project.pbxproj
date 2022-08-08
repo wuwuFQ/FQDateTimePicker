@@ -7,76 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		159FA328BB2EB385F22EB668 /* Pods_FQDateTimeSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BA3AD2D36C23E9E379CCD0 /* Pods_FQDateTimeSDKDemo.framework */; };
-		B618BC78281199D90089C6A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC77281199D90089C6A3 /* AppDelegate.m */; };
-		B618BC7B281199D90089C6A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC7A281199D90089C6A3 /* SceneDelegate.m */; };
-		B618BC7E281199D90089C6A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC7D281199D90089C6A3 /* ViewController.m */; };
-		B618BC81281199D90089C6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B618BC7F281199D90089C6A3 /* Main.storyboard */; };
-		B618BC83281199DF0089C6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B618BC82281199DF0089C6A3 /* Assets.xcassets */; };
-		B618BC86281199DF0089C6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B618BC84281199DF0089C6A3 /* LaunchScreen.storyboard */; };
-		B618BC89281199DF0089C6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC88281199DF0089C6A3 /* main.m */; };
-		B618BC93281199E00089C6A3 /* FQDateTimeSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */; };
-		B618BC9D281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */; };
-		B618BC9F281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */; };
+		544FF23528A0DDA300B71EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF23428A0DDA300B71EED /* AppDelegate.m */; };
+		544FF23828A0DDA300B71EED /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF23728A0DDA300B71EED /* SceneDelegate.m */; };
+		544FF23B28A0DDA300B71EED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF23A28A0DDA300B71EED /* ViewController.m */; };
+		544FF23E28A0DDA300B71EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544FF23C28A0DDA300B71EED /* Main.storyboard */; };
+		544FF24028A0DDA400B71EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544FF23F28A0DDA400B71EED /* Assets.xcassets */; };
+		544FF24328A0DDA400B71EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544FF24128A0DDA400B71EED /* LaunchScreen.storyboard */; };
+		544FF24628A0DDA400B71EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF24528A0DDA400B71EED /* main.m */; };
+		544FF25028A0DDA400B71EED /* FQDateTimeSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF24F28A0DDA400B71EED /* FQDateTimeSDKDemoTests.m */; };
+		544FF25A28A0DDA400B71EED /* FQDateTimeSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF25928A0DDA400B71EED /* FQDateTimeSDKDemoUITests.m */; };
+		544FF25C28A0DDA400B71EED /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 544FF25B28A0DDA400B71EED /* FQDateTimeSDKDemoUITestsLaunchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B618BC8F281199E00089C6A3 /* PBXContainerItemProxy */ = {
+		544FF24C28A0DDA400B71EED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B618BC6B281199D90089C6A3 /* Project object */;
+			containerPortal = 544FF22828A0DDA300B71EED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B618BC72281199D90089C6A3;
+			remoteGlobalIDString = 544FF22F28A0DDA300B71EED;
 			remoteInfo = FQDateTimeSDKDemo;
 		};
-		B618BC99281199E00089C6A3 /* PBXContainerItemProxy */ = {
+		544FF25628A0DDA400B71EED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B618BC6B281199D90089C6A3 /* Project object */;
+			containerPortal = 544FF22828A0DDA300B71EED /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B618BC72281199D90089C6A3;
+			remoteGlobalIDString = 544FF22F28A0DDA300B71EED;
 			remoteInfo = FQDateTimeSDKDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26BA3AD2D36C23E9E379CCD0 /* Pods_FQDateTimeSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQDateTimeSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38DFEA43F4344DD65B243BF3 /* Pods-FQDateTimeSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQDateTimeSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B618BC73281199D90089C6A3 /* FQDateTimeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQDateTimeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B618BC76281199D90089C6A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B618BC77281199D90089C6A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B618BC79281199D90089C6A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B618BC7A281199D90089C6A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B618BC7C281199D90089C6A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B618BC7D281199D90089C6A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B618BC80281199D90089C6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B618BC82281199DF0089C6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B618BC85281199DF0089C6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B618BC87281199DF0089C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B618BC88281199DF0089C6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B618BC8E281199E00089C6A3 /* FQDateTimeSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoTests.m; sourceTree = "<group>"; };
-		B618BC98281199E00089C6A3 /* FQDateTimeSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITests.m; sourceTree = "<group>"; };
-		B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
-		D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQDateTimeSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		544FF23028A0DDA300B71EED /* FQDateTimeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQDateTimeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		544FF23328A0DDA300B71EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		544FF23428A0DDA300B71EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		544FF23628A0DDA300B71EED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		544FF23728A0DDA300B71EED /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		544FF23928A0DDA300B71EED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		544FF23A28A0DDA300B71EED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		544FF23D28A0DDA300B71EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		544FF23F28A0DDA400B71EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		544FF24228A0DDA400B71EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		544FF24428A0DDA400B71EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544FF24528A0DDA400B71EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		544FF24B28A0DDA400B71EED /* FQDateTimeSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544FF24F28A0DDA400B71EED /* FQDateTimeSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoTests.m; sourceTree = "<group>"; };
+		544FF25528A0DDA400B71EED /* FQDateTimeSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQDateTimeSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544FF25928A0DDA400B71EED /* FQDateTimeSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITests.m; sourceTree = "<group>"; };
+		544FF25B28A0DDA400B71EED /* FQDateTimeSDKDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQDateTimeSDKDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B618BC70281199D90089C6A3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				159FA328BB2EB385F22EB668 /* Pods_FQDateTimeSDKDemo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B618BC8B281199E00089C6A3 /* Frameworks */ = {
+		544FF22D28A0DDA300B71EED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B618BC95281199E00089C6A3 /* Frameworks */ = {
+		544FF24828A0DDA400B71EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		544FF25228A0DDA400B71EED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,76 +81,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44A92AA357DBCE8597C6EF7A /* Frameworks */ = {
+		544FF22728A0DDA300B71EED = {
 			isa = PBXGroup;
 			children = (
-				26BA3AD2D36C23E9E379CCD0 /* Pods_FQDateTimeSDKDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4A775A43CC9A4BC81F802406 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */,
-				38DFEA43F4344DD65B243BF3 /* Pods-FQDateTimeSDKDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		B618BC6A281199D90089C6A3 = {
-			isa = PBXGroup;
-			children = (
-				B618BC75281199D90089C6A3 /* FQDateTimeSDKDemo */,
-				B618BC91281199E00089C6A3 /* FQDateTimeSDKDemoTests */,
-				B618BC9B281199E00089C6A3 /* FQDateTimeSDKDemoUITests */,
-				B618BC74281199D90089C6A3 /* Products */,
-				4A775A43CC9A4BC81F802406 /* Pods */,
-				44A92AA357DBCE8597C6EF7A /* Frameworks */,
+				544FF23228A0DDA300B71EED /* FQDateTimeSDKDemo */,
+				544FF24E28A0DDA400B71EED /* FQDateTimeSDKDemoTests */,
+				544FF25828A0DDA400B71EED /* FQDateTimeSDKDemoUITests */,
+				544FF23128A0DDA300B71EED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B618BC74281199D90089C6A3 /* Products */ = {
+		544FF23128A0DDA300B71EED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B618BC73281199D90089C6A3 /* FQDateTimeSDKDemo.app */,
-				B618BC8E281199E00089C6A3 /* FQDateTimeSDKDemoTests.xctest */,
-				B618BC98281199E00089C6A3 /* FQDateTimeSDKDemoUITests.xctest */,
+				544FF23028A0DDA300B71EED /* FQDateTimeSDKDemo.app */,
+				544FF24B28A0DDA400B71EED /* FQDateTimeSDKDemoTests.xctest */,
+				544FF25528A0DDA400B71EED /* FQDateTimeSDKDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B618BC75281199D90089C6A3 /* FQDateTimeSDKDemo */ = {
+		544FF23228A0DDA300B71EED /* FQDateTimeSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B618BC76281199D90089C6A3 /* AppDelegate.h */,
-				B618BC77281199D90089C6A3 /* AppDelegate.m */,
-				B618BC79281199D90089C6A3 /* SceneDelegate.h */,
-				B618BC7A281199D90089C6A3 /* SceneDelegate.m */,
-				B618BC7C281199D90089C6A3 /* ViewController.h */,
-				B618BC7D281199D90089C6A3 /* ViewController.m */,
-				B618BC7F281199D90089C6A3 /* Main.storyboard */,
-				B618BC82281199DF0089C6A3 /* Assets.xcassets */,
-				B618BC84281199DF0089C6A3 /* LaunchScreen.storyboard */,
-				B618BC87281199DF0089C6A3 /* Info.plist */,
-				B618BC88281199DF0089C6A3 /* main.m */,
+				544FF23328A0DDA300B71EED /* AppDelegate.h */,
+				544FF23428A0DDA300B71EED /* AppDelegate.m */,
+				544FF23628A0DDA300B71EED /* SceneDelegate.h */,
+				544FF23728A0DDA300B71EED /* SceneDelegate.m */,
+				544FF23928A0DDA300B71EED /* ViewController.h */,
+				544FF23A28A0DDA300B71EED /* ViewController.m */,
+				544FF23C28A0DDA300B71EED /* Main.storyboard */,
+				544FF23F28A0DDA400B71EED /* Assets.xcassets */,
+				544FF24128A0DDA400B71EED /* LaunchScreen.storyboard */,
+				544FF24428A0DDA400B71EED /* Info.plist */,
+				544FF24528A0DDA400B71EED /* main.m */,
 			);
 			path = FQDateTimeSDKDemo;
 			sourceTree = "<group>";
 		};
-		B618BC91281199E00089C6A3 /* FQDateTimeSDKDemoTests */ = {
+		544FF24E28A0DDA400B71EED /* FQDateTimeSDKDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				B618BC92281199E00089C6A3 /* FQDateTimeSDKDemoTests.m */,
+				544FF24F28A0DDA400B71EED /* FQDateTimeSDKDemoTests.m */,
 			);
 			path = FQDateTimeSDKDemoTests;
 			sourceTree = "<group>";
 		};
-		B618BC9B281199E00089C6A3 /* FQDateTimeSDKDemoUITests */ = {
+		544FF25828A0DDA400B71EED /* FQDateTimeSDKDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B618BC9C281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m */,
-				B618BC9E281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m */,
+				544FF25928A0DDA400B71EED /* FQDateTimeSDKDemoUITests.m */,
+				544FF25B28A0DDA400B71EED /* FQDateTimeSDKDemoUITestsLaunchTests.m */,
 			);
 			path = FQDateTimeSDKDemoUITests;
 			sourceTree = "<group>";
@@ -163,15 +139,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B618BC72281199D90089C6A3 /* FQDateTimeSDKDemo */ = {
+		544FF22F28A0DDA300B71EED /* FQDateTimeSDKDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B618BCA2281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemo" */;
+			buildConfigurationList = 544FF25F28A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemo" */;
 			buildPhases = (
-				3C71E739C0E8BC7C1149660C /* [CP] Check Pods Manifest.lock */,
-				B618BC6F281199D90089C6A3 /* Sources */,
-				B618BC70281199D90089C6A3 /* Frameworks */,
-				B618BC71281199D90089C6A3 /* Resources */,
-				3AE1D07EEF7DCBADCCA91592 /* [CP] Embed Pods Frameworks */,
+				544FF22C28A0DDA300B71EED /* Sources */,
+				544FF22D28A0DDA300B71EED /* Frameworks */,
+				544FF22E28A0DDA300B71EED /* Resources */,
 			);
 			buildRules = (
 			);
@@ -179,68 +153,68 @@
 			);
 			name = FQDateTimeSDKDemo;
 			productName = FQDateTimeSDKDemo;
-			productReference = B618BC73281199D90089C6A3 /* FQDateTimeSDKDemo.app */;
+			productReference = 544FF23028A0DDA300B71EED /* FQDateTimeSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B618BC8D281199E00089C6A3 /* FQDateTimeSDKDemoTests */ = {
+		544FF24A28A0DDA400B71EED /* FQDateTimeSDKDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B618BCA5281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoTests" */;
+			buildConfigurationList = 544FF26228A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoTests" */;
 			buildPhases = (
-				B618BC8A281199E00089C6A3 /* Sources */,
-				B618BC8B281199E00089C6A3 /* Frameworks */,
-				B618BC8C281199E00089C6A3 /* Resources */,
+				544FF24728A0DDA400B71EED /* Sources */,
+				544FF24828A0DDA400B71EED /* Frameworks */,
+				544FF24928A0DDA400B71EED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B618BC90281199E00089C6A3 /* PBXTargetDependency */,
+				544FF24D28A0DDA400B71EED /* PBXTargetDependency */,
 			);
 			name = FQDateTimeSDKDemoTests;
 			productName = FQDateTimeSDKDemoTests;
-			productReference = B618BC8E281199E00089C6A3 /* FQDateTimeSDKDemoTests.xctest */;
+			productReference = 544FF24B28A0DDA400B71EED /* FQDateTimeSDKDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B618BC97281199E00089C6A3 /* FQDateTimeSDKDemoUITests */ = {
+		544FF25428A0DDA400B71EED /* FQDateTimeSDKDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B618BCA8281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoUITests" */;
+			buildConfigurationList = 544FF26528A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoUITests" */;
 			buildPhases = (
-				B618BC94281199E00089C6A3 /* Sources */,
-				B618BC95281199E00089C6A3 /* Frameworks */,
-				B618BC96281199E00089C6A3 /* Resources */,
+				544FF25128A0DDA400B71EED /* Sources */,
+				544FF25228A0DDA400B71EED /* Frameworks */,
+				544FF25328A0DDA400B71EED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B618BC9A281199E00089C6A3 /* PBXTargetDependency */,
+				544FF25728A0DDA400B71EED /* PBXTargetDependency */,
 			);
 			name = FQDateTimeSDKDemoUITests;
 			productName = FQDateTimeSDKDemoUITests;
-			productReference = B618BC98281199E00089C6A3 /* FQDateTimeSDKDemoUITests.xctest */;
+			productReference = 544FF25528A0DDA400B71EED /* FQDateTimeSDKDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B618BC6B281199D90089C6A3 /* Project object */ = {
+		544FF22828A0DDA300B71EED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					B618BC72281199D90089C6A3 = {
-						CreatedOnToolsVersion = 13.3;
+					544FF22F28A0DDA300B71EED = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
-					B618BC8D281199E00089C6A3 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = B618BC72281199D90089C6A3;
+					544FF24A28A0DDA400B71EED = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 544FF22F28A0DDA300B71EED;
 					};
-					B618BC97281199E00089C6A3 = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = B618BC72281199D90089C6A3;
+					544FF25428A0DDA400B71EED = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 544FF22F28A0DDA300B71EED;
 					};
 				};
 			};
-			buildConfigurationList = B618BC6E281199D90089C6A3 /* Build configuration list for PBXProject "FQDateTimeSDKDemo" */;
+			buildConfigurationList = 544FF22B28A0DDA300B71EED /* Build configuration list for PBXProject "FQDateTimeSDKDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -248,37 +222,37 @@
 				en,
 				Base,
 			);
-			mainGroup = B618BC6A281199D90089C6A3;
-			productRefGroup = B618BC74281199D90089C6A3 /* Products */;
+			mainGroup = 544FF22728A0DDA300B71EED;
+			productRefGroup = 544FF23128A0DDA300B71EED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B618BC72281199D90089C6A3 /* FQDateTimeSDKDemo */,
-				B618BC8D281199E00089C6A3 /* FQDateTimeSDKDemoTests */,
-				B618BC97281199E00089C6A3 /* FQDateTimeSDKDemoUITests */,
+				544FF22F28A0DDA300B71EED /* FQDateTimeSDKDemo */,
+				544FF24A28A0DDA400B71EED /* FQDateTimeSDKDemoTests */,
+				544FF25428A0DDA400B71EED /* FQDateTimeSDKDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B618BC71281199D90089C6A3 /* Resources */ = {
+		544FF22E28A0DDA300B71EED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC86281199DF0089C6A3 /* LaunchScreen.storyboard in Resources */,
-				B618BC83281199DF0089C6A3 /* Assets.xcassets in Resources */,
-				B618BC81281199D90089C6A3 /* Main.storyboard in Resources */,
+				544FF24328A0DDA400B71EED /* LaunchScreen.storyboard in Resources */,
+				544FF24028A0DDA400B71EED /* Assets.xcassets in Resources */,
+				544FF23E28A0DDA300B71EED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B618BC8C281199E00089C6A3 /* Resources */ = {
+		544FF24928A0DDA400B71EED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B618BC96281199E00089C6A3 /* Resources */ = {
+		544FF25328A0DDA400B71EED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,105 +261,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3AE1D07EEF7DCBADCCA91592 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FQDateTimeSDKDemo/Pods-FQDateTimeSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3C71E739C0E8BC7C1149660C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FQDateTimeSDKDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B618BC6F281199D90089C6A3 /* Sources */ = {
+		544FF22C28A0DDA300B71EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC7E281199D90089C6A3 /* ViewController.m in Sources */,
-				B618BC78281199D90089C6A3 /* AppDelegate.m in Sources */,
-				B618BC89281199DF0089C6A3 /* main.m in Sources */,
-				B618BC7B281199D90089C6A3 /* SceneDelegate.m in Sources */,
+				544FF23B28A0DDA300B71EED /* ViewController.m in Sources */,
+				544FF23528A0DDA300B71EED /* AppDelegate.m in Sources */,
+				544FF24628A0DDA400B71EED /* main.m in Sources */,
+				544FF23828A0DDA300B71EED /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B618BC8A281199E00089C6A3 /* Sources */ = {
+		544FF24728A0DDA400B71EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC93281199E00089C6A3 /* FQDateTimeSDKDemoTests.m in Sources */,
+				544FF25028A0DDA400B71EED /* FQDateTimeSDKDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B618BC94281199E00089C6A3 /* Sources */ = {
+		544FF25128A0DDA400B71EED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B618BC9F281199E00089C6A3 /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */,
-				B618BC9D281199E00089C6A3 /* FQDateTimeSDKDemoUITests.m in Sources */,
+				544FF25C28A0DDA400B71EED /* FQDateTimeSDKDemoUITestsLaunchTests.m in Sources */,
+				544FF25A28A0DDA400B71EED /* FQDateTimeSDKDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B618BC90281199E00089C6A3 /* PBXTargetDependency */ = {
+		544FF24D28A0DDA400B71EED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B618BC72281199D90089C6A3 /* FQDateTimeSDKDemo */;
-			targetProxy = B618BC8F281199E00089C6A3 /* PBXContainerItemProxy */;
+			target = 544FF22F28A0DDA300B71EED /* FQDateTimeSDKDemo */;
+			targetProxy = 544FF24C28A0DDA400B71EED /* PBXContainerItemProxy */;
 		};
-		B618BC9A281199E00089C6A3 /* PBXTargetDependency */ = {
+		544FF25728A0DDA400B71EED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B618BC72281199D90089C6A3 /* FQDateTimeSDKDemo */;
-			targetProxy = B618BC99281199E00089C6A3 /* PBXContainerItemProxy */;
+			target = 544FF22F28A0DDA300B71EED /* FQDateTimeSDKDemo */;
+			targetProxy = 544FF25628A0DDA400B71EED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B618BC7F281199D90089C6A3 /* Main.storyboard */ = {
+		544FF23C28A0DDA300B71EED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B618BC80281199D90089C6A3 /* Base */,
+				544FF23D28A0DDA300B71EED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B618BC84281199DF0089C6A3 /* LaunchScreen.storyboard */ = {
+		544FF24128A0DDA400B71EED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B618BC85281199DF0089C6A3 /* Base */,
+				544FF24228A0DDA400B71EED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -393,7 +325,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B618BCA0281199E00089C6A3 /* Debug */ = {
+		544FF25D28A0DDA400B71EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -443,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -451,7 +383,7 @@
 			};
 			name = Debug;
 		};
-		B618BCA1281199E00089C6A3 /* Release */ = {
+		544FF25E28A0DDA400B71EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -495,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -503,16 +435,14 @@
 			};
 			name = Release;
 		};
-		B618BCA3281199E00089C6A3 /* Debug */ = {
+		544FF26028A0DDA400B71EED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM32HRPZ8W;
-				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FQDateTimeSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -525,23 +455,21 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B618BCA4281199E00089C6A3 /* Release */ = {
+		544FF26128A0DDA400B71EED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38DFEA43F4344DD65B243BF3 /* Pods-FQDateTimeSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SM32HRPZ8W;
-				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FQDateTimeSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -554,23 +482,24 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		B618BCA6281199E00089C6A3 /* Debug */ = {
+		544FF26328A0DDA400B71EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,16 +507,17 @@
 			};
 			name = Debug;
 		};
-		B618BCA7281199E00089C6A3 /* Release */ = {
+		544FF26428A0DDA400B71EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,14 +525,15 @@
 			};
 			name = Release;
 		};
-		B618BCA9281199E00089C6A3 /* Debug */ = {
+		544FF26628A0DDA400B71EED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -610,14 +541,15 @@
 			};
 			name = Debug;
 		};
-		B618BCAA281199E00089C6A3 /* Release */ = {
+		544FF26728A0DDA400B71EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wuwufq.FQDateTimeSDKDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = wuwuFQ.com.FQDateTimeSDKDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -628,43 +560,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B618BC6E281199D90089C6A3 /* Build configuration list for PBXProject "FQDateTimeSDKDemo" */ = {
+		544FF22B28A0DDA300B71EED /* Build configuration list for PBXProject "FQDateTimeSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B618BCA0281199E00089C6A3 /* Debug */,
-				B618BCA1281199E00089C6A3 /* Release */,
+				544FF25D28A0DDA400B71EED /* Debug */,
+				544FF25E28A0DDA400B71EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B618BCA2281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemo" */ = {
+		544FF25F28A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B618BCA3281199E00089C6A3 /* Debug */,
-				B618BCA4281199E00089C6A3 /* Release */,
+				544FF26028A0DDA400B71EED /* Debug */,
+				544FF26128A0DDA400B71EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B618BCA5281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoTests" */ = {
+		544FF26228A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B618BCA6281199E00089C6A3 /* Debug */,
-				B618BCA7281199E00089C6A3 /* Release */,
+				544FF26328A0DDA400B71EED /* Debug */,
+				544FF26428A0DDA400B71EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B618BCA8281199E00089C6A3 /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoUITests" */ = {
+		544FF26528A0DDA400B71EED /* Build configuration list for PBXNativeTarget "FQDateTimeSDKDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B618BCA9281199E00089C6A3 /* Debug */,
-				B618BCAA281199E00089C6A3 /* Release */,
+				544FF26628A0DDA400B71EED /* Debug */,
+				544FF26728A0DDA400B71EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B618BC6B281199D90089C6A3 /* Project object */;
+	rootObject = 544FF22828A0DDA300B71EED /* Project object */;
 }

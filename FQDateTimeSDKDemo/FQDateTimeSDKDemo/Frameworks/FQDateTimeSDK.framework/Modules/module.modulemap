@@ -1,6 +1,0 @@
-framework module FQDateTimeSDK {
-  umbrella header "FQDateTimeSDK.h"
-
-  export *
-  module * { export * }
-}
