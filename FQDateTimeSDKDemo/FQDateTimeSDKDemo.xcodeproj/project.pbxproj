@@ -100,7 +100,6 @@
 				D5A51C0D0BCAA45C250D62AC /* Pods-FQDateTimeSDKDemo.debug.xcconfig */,
 				38DFEA43F4344DD65B243BF3 /* Pods-FQDateTimeSDKDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -512,6 +511,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
+				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FQDateTimeSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -539,6 +540,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SM32HRPZ8W;
+				ENABLE_BITCODE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FQDateTimeSDKDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
