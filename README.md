@@ -18,7 +18,8 @@
 
 |版本| 更新内容 |日期|
 |--|:--|--|
-|1.0.3 | - 增加maskBackgroundColor，可以修改遮罩背景色 | 2022-05-27|
+|1.0.4 | - 增加pickerBackgroundColor，可以修改pickerView背景色 <br>- 支持bitcode| 2022-08-08|
+|1.0.3 | - 增加maskBackgroundColor，可以修改遮罩颜色 | 2022-05-27|
 |1.0.2| - 增加target，用以区分pickerView|2022-05-14|
 |1.0.1| - 日期的单位支持自定义  <br>- 修复每月天数不实时刷新|2022-04-29|
 |1.0|- 增加更多picker模式：支持年月、年月日、时分、时分秒、年月日时分、年月日时分秒 <br>- 可自定义字体大小和颜色|2022-04-21|
@@ -32,7 +33,8 @@
 - 支持默认时间和最大、最小时间
 - 支持标题的设置，默认为空
 - 字体大小和颜色可以自定义
-
+- 支持背景色和遮罩颜色自定义
+- SDK支持bitcode
 
 ## 集成方式
 ### 手动集成
@@ -54,7 +56,7 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0.3'
+pod 'FQDateTimeSDK', '~> 1.0.4'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
@@ -86,31 +88,32 @@ pod update FQDateTimeSDK --no-repo-update
 ```
 3. 实现代理方法
 ```
-- (void)cancelAction {
-    NSLog(@"wuwuFQ：cancelAction");
-}
-
-- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 
-- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr {
+- (void)cancelActionWithTarget:(NSInteger)target {
+    NSLog(@"wuwuFQ：cancelAction");
+}
+
+- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 ```
 - 年月日选择器
 ```
     FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
-    pickerView.delegate = self;
-    pickerView.pickerModel = FQDateTimePickerModelDate;
-    pickerView.cancelColor = [UIColor greenColor];
-    pickerView.pickerColor = [UIColor systemPinkColor];
-    pickerView.title = @"wuwuFQ";
-    pickerView.titleColor = [UIColor redColor];
-    pickerView.unitsData = nil;
-    pickerView.minDate = [NSDate new];
-    [pickerView showPicker];
-
+    pickerView.delegate = self;    //遵循代理
+    pickerView.pickerModel = FQDateTimePickerModelDate;    //日期模式
+    pickerView.cancelColor = [UIColor greenColor];    //取消颜色
+    pickerView.pickerColor = [UIColor yellowColor];    //滚轮字体颜色
+    pickerView.maskBackgroundColor = UIColor.cyanColor;    //遮罩颜色
+    pickerView.pickerBackgroundColor = UIColor.lightGrayColor;    //选择器背景色
+    pickerView.title = @"wuwuFQ";    //标题
+    pickerView.titleColor = [UIColor redColor];    //标题颜色
+    pickerView.unitsData = nil;    //单位重置
+    pickerView.minDate = [NSDate new];    //最小时间
+    [pickerView showPicker];    //展示
 ```
 
 >  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
