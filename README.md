@@ -41,9 +41,10 @@
 1. 把项目`clone`或`Download ZIP`到本地
 2. 把项目内的`FQDateTimeSDK.framework`拖到你的项目里
 ![image](https://user-images.githubusercontent.com/23627803/121634046-80e0b200-cab6-11eb-8a93-e853bddddb7e.png)
-3. 如果项目报错 设置 `Embed&Sign`
+3. 如果项目报错  `Library not loaded: @rpath/FQDateTimeSDK.framework/FQDateTimeSDK`， 设置 `Embed&Sign`
 ![image](https://user-images.githubusercontent.com/23627803/121634466-2bf16b80-cab7-11eb-9024-b3e4afa18941.png)
 4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimeSDK.framework' was built for iOS + iOS Simulator. `
+解决方法是： `Buil Settings` --> `Build Options` --> `Validate Workspace` 改为**Yes**
 ![Xnip2022-05-14_22-26-55](https://user-images.githubusercontent.com/23627803/168431873-9f4bb708-9a7e-44ee-8989-77524b38e0d0.jpg)
 
    
