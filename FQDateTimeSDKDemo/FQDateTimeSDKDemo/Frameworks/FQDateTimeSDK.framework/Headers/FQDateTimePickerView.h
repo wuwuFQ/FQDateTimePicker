@@ -22,61 +22,72 @@ NS_ASSUME_NONNULL_BEGIN
 /// 确认操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
+@optional
 /// 取消操作
-- (void)cancelAction;
+/// @param target 用于区分pickerView
+- (void)cancelActionWithTarget:(NSInteger)target;
 
 /// 滚动操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
 @end
 
 
 @interface FQDateTimePickerView : UIView
 /*----------------   UI  ------------------------*/
-//确定按钮文本
+///确定按钮文本
 @property (nonatomic, copy) NSString *confirmText;
-//确定按钮颜色 默认black
+///确定按钮颜色 默认black
 @property (nonatomic, strong) UIColor *confirmColor;
-//确定按钮字体 默认系统18pt
+///确定按钮字体 默认系统18pt
 @property (nonatomic, strong) UIFont *confirmFont;
 
-//取消按钮文本
+///取消按钮文本
 @property (nonatomic, copy) NSString *cancelText;
-//取消按钮颜色 默认黑色
+///取消按钮颜色 默认黑色
 @property (nonatomic, strong) UIColor *cancelColor;
-//取消按钮字体 默认系统18pt
+///取消按钮字体 默认系统18pt
 @property (nonatomic, strong) UIFont *cancelFont;
 
-//标题文本 默认 ""
+///标题文本 默认 ""
 @property (nonatomic, copy) NSString *title;
-//标题颜色 默认黑色
+///标题颜色 默认黑色
 @property (nonatomic, strong) UIColor *titleColor;
-//标题字体 默认系统SFUI-Regular 16.00pt
+///标题字体 默认系统SFUI-Regular 16.00pt
 @property (nonatomic, strong) UIFont *titleFont;
 
-//滚轮日期文本颜色(默认black)
+///滚轮日期文本颜色(默认black)
 @property (nonatomic, strong) UIColor *pickerColor;
-//滚轮日期文本字体[UIFont systemFontOfSize:16]
+///滚轮日期文本字体[UIFont systemFontOfSize:16]
 @property (nonatomic, strong) UIFont *pickerFont;
 
 
 /*----------------   NSDate  ------------------------*/
-//限制最大时间
+///限制最大时间
 @property (nonatomic, strong) NSDate *maxDate;
-//限制最小时间
+///限制最小时间
 @property (nonatomic, strong) NSDate *minDate;
-//默认时间
+///默认时间 - - 默认当前时间
 @property (nonatomic, strong) NSDate *defaultDate;
+/// 单位：默认[@"年", @"月", @"日", @"时", @"分", @"秒"]，请一一对应，设置 unitsData = nil 可置空
+@property (nonatomic, strong, null_unspecified) NSArray *unitsData;
 
 
+/*----------------   other  ------------------------*/
 @property (nonatomic, weak) id<FQDateTimePickerViewDelegate> delegate;
 
 /// 选择器的枚举 默认FQDateTimePickerModelDate
 @property (nonatomic, assign) FQDateTimePickerModel pickerModel;
+
+/// pickerView的tag  用于回调区分
+@property (nonatomic, assign) NSInteger target;
+
 ///请在展示之前，设置好需要的属性
 - (void)showPicker;
 @end

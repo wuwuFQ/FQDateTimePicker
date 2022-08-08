@@ -22,22 +22,28 @@ NS_ASSUME_NONNULL_BEGIN
 /// 确认操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)confirmActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
 @optional
 /// 取消操作
-- (void)cancelAction;
+/// @param target 用于区分pickerView
+- (void)cancelActionWithTarget:(NSInteger)target;
 
 /// 滚动操作
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+/// @param target 用于区分pickerView
+- (void)scrollActionWithDate:(NSDate *)date withDateString:(NSString *)dateStr withTarget:(NSInteger)target;
 
 @end
 
 
 @interface FQDateTimePickerView : UIView
 /*----------------   UI  ------------------------*/
+/// 遮罩背景色
+@property (nonatomic, strong) UIColor *maskBackgroundColor;
+
 ///确定按钮文本
 @property (nonatomic, copy) NSString *confirmText;
 ///确定按钮颜色 默认black
@@ -76,14 +82,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, null_unspecified) NSArray *unitsData;
 
 
+/*----------------   other  ------------------------*/
+/// Protocol
 @property (nonatomic, weak) id<FQDateTimePickerViewDelegate> delegate;
 
 /// 选择器的枚举 默认FQDateTimePickerModelDate
 @property (nonatomic, assign) FQDateTimePickerModel pickerModel;
 
+/// pickerView的tag  用于区分回调
+@property (nonatomic, assign) NSInteger target;
 
 ///请在展示之前，设置好需要的属性
 - (void)showPicker;
+
 @end
 
 NS_ASSUME_NONNULL_END

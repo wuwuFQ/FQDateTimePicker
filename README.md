@@ -15,9 +15,13 @@
 
 
 # 更新记录
-- 1.0版本 2022-04-21
-    1. 增加更多picker模式：支持年月、年月日、时分、时分秒、年月日时分、年月日时分秒
-    2. 可自定义字体大小和颜色
+
+|版本| 更新内容 |日期|
+|--|:--|--|
+|1.0.3 | - 增加maskBackgroundColor，可以修改遮罩背景色 | 2022-05-27|
+|1.0.2| - 增加target，用以区分pickerView|2022-05-14|
+|1.0.1| - 日期的单位支持自定义  <br>- 修复每月天数不实时刷新|2022-04-29|
+|1.0|- 增加更多picker模式：支持年月、年月日、时分、时分秒、年月日时分、年月日时分秒 <br>- 可自定义字体大小和颜色|2022-04-21|
 
 
 
@@ -35,8 +39,12 @@
 1. 把项目`clone`或`Download ZIP`到本地
 2. 把项目内的`FQDateTimeSDK.framework`拖到你的项目里
 ![image](https://user-images.githubusercontent.com/23627803/121634046-80e0b200-cab6-11eb-8a93-e853bddddb7e.png)
-3. 设置 `Embed&Sign`
+3. 如果项目报错 设置 `Embed&Sign`
 ![image](https://user-images.githubusercontent.com/23627803/121634466-2bf16b80-cab7-11eb-9024-b3e4afa18941.png)
+4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimeSDK.framework' was built for iOS + iOS Simulator. `
+![Xnip2022-05-14_22-26-55](https://user-images.githubusercontent.com/23627803/168431873-9f4bb708-9a7e-44ee-8989-77524b38e0d0.jpg)
+
+   
 
 ### cocoaPods自动集成
 _这里默认大家对cocoaPods都是信手拈来的_
@@ -46,15 +54,24 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0'
+pod 'FQDateTimeSDK', '~> 1.0.3'
 ```
-2. 在终端 cd 到你的项目根路径
+2. 在终端 cd 到你的项目根路径 
+- 下载
 ```bash
 pod install
 ```
 或者
 ```bash
 pod install --no-repo-update
+```
+- 更新
+```bash
+pod update
+```
+或者
+```bash
+pod update FQDateTimeSDK --no-repo-update
 ```
 ## 使用案列
 1. 在用到时间选择器的地方引用头文件
@@ -83,14 +100,17 @@ pod install --no-repo-update
 ```
 - 年月日选择器
 ```
-FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
-pickerView.delegate = self;
-pickerView.pickerModel = indexPath.row;
-pickerView.cancelColor = [UIColor greenColor];
-pickerView.pickerColor = [UIColor systemPinkColor];
-pickerView.title = @"wuwuFQ";
-pickerView.titleColor = [UIColor redColor];
-[pickerView showPicker];
+    FQDateTimePickerView *pickerView = [[FQDateTimePickerView alloc] init];
+    pickerView.delegate = self;
+    pickerView.pickerModel = FQDateTimePickerModelDate;
+    pickerView.cancelColor = [UIColor greenColor];
+    pickerView.pickerColor = [UIColor systemPinkColor];
+    pickerView.title = @"wuwuFQ";
+    pickerView.titleColor = [UIColor redColor];
+    pickerView.unitsData = nil;
+    pickerView.minDate = [NSDate new];
+    [pickerView showPicker];
+
 ```
 
 >  有问题可以一起探讨，喜欢的请给个 ⭐️star⭐️，你的点赞我的动力，有需要可[通过博客联系](https://wuwufq.blog.csdn.net/article/details/117815524)
