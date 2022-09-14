@@ -75,7 +75,7 @@
 //    pickerView.pickerBackgroundColor = UIColor.lightGrayColor;    //选择器背景色
     pickerView.title = @"wuwuFQ";    //标题
     pickerView.titleColor = [UIColor redColor];    //标题颜色
-    pickerView.unitsData = nil;    //单位重置
+//    pickerView.unitsData = nil;    //单位重置
     pickerView.minDate = [NSDate new];    //最小时间
     [pickerView showPicker];    //展示
 }
