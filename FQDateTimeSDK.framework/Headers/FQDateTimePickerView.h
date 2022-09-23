@@ -95,8 +95,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// pickerView的tag  用于区分回调
 @property (nonatomic, assign) NSInteger target;
 
-///请在展示之前，设置好需要的属性
+/// 展示在window上（请在展示之前，设置好需要的属性）
 - (void)showPicker;
+
+/// 展示在view上（请在展示之前，设置好需要的属性）
+/// - Parameter view: <#view description#>
+- (void)showPickerInView:(UIView *)view;
 
 @end
 

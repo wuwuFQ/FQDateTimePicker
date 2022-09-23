@@ -20,6 +20,7 @@
 
 |版本| 更新内容 |日期|
 |--|:--|--|
+|1.0.6 | - picker可以展示在view和window上| 2022-09-23|
 |1.0.5 | - 优化picker弧度，更贴合原生| 2022-09-14|
 |1.0.4 | - 增加pickerBackgroundColor，可以修改pickerView背景色 <br>- 支持bitcode| 2022-08-08|
 |1.0.3 | - 增加maskBackgroundColor，可以修改遮罩颜色 | 2022-05-27|
@@ -60,7 +61,7 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.0.5'
+pod 'FQDateTimeSDK', '~> 1.0.6'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
