@@ -9,10 +9,10 @@
 typedef enum{
     FQDateTimePickerModelYMDate,// 年月 2021-05
     FQDateTimePickerModelDate,// 年月日 2021-05-26
-    FQDateTimePickerModelTime,// 时分 HH:mm 只支持24小时制
-    FQDateTimePickerModelTimeSecond,// 时分秒 HH:mm:ss 只支持24小时制
     FQDateTimePickerModelDateTime,//年月日 时分 yyyy-mm-dd HH:mm 只支持24小时制
     FQDateTimePickerModelDateTimeSecond,//年月日 时分秒 yyyy-mm-dd HH:mm:ss 只支持24小时制
+    FQDateTimePickerModelTime,// 时分 HH:mm 只支持24小时制
+    FQDateTimePickerModelTimeSecond,// 时分秒 HH:mm:ss 只支持24小时制
 } FQDateTimePickerModel;
 
 

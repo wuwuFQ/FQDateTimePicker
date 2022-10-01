@@ -31,10 +31,10 @@
 -(NSArray *)listTitles {
     return @[@"年月",
              @"年月日",
-             @"时分",
-             @"时分秒",
              @"年月日 时分",
-             @"年月日 时分秒"];
+             @"年月日 时分秒",
+             @"时分",
+             @"时分秒",];
 }
 
 - (void)viewDidLoad {
@@ -76,7 +76,7 @@
     pickerView.title = @"wuwuFQ";    //标题
     pickerView.titleColor = [UIColor redColor];    //标题颜色
 //    pickerView.unitsData = nil;    //单位重置
-    pickerView.minDate = [NSDate new];    //最小时间
+//    pickerView.minDate = [NSDate new];    //最小时间
     [pickerView showPicker];    //展示
 }
 - (void)cancelActionWithTarget:(NSInteger)target {
