@@ -7,16 +7,16 @@
 ### [博客地址，可探讨](https://wuwufq.blog.csdn.net/article/details/117815524)
 ### [博客地址，可私聊](https://wuwufq.blog.csdn.net/article/details/117815524)
 
-<div  align = 'center' >
+<div  align='center'>
 <img src="https://user-images.githubusercontent.com/23627803/121637253-afad5700-cabb-11eb-995d-670320281613.png" width = 30% height = 30% >
 <img src="https://user-images.githubusercontent.com/23627803/121647056-8b0bac00-cac8-11eb-9d78-8f72979268e4.png" width = 30% height = 30% >
 <img src="https://user-images.githubusercontent.com/23627803/121647086-9232ba00-cac8-11eb-8ee9-b0a6404b22ab.png" width = 30% height = 30% >
-    <img src="https://user-images.githubusercontent.com/23627803/121642635-606b2480-cac3-11eb-8c72-f6edcee614b1.gif" width = 50% height = 50% >
+<img src="https://user-images.githubusercontent.com/23627803/121642635-606b2480-cac3-11eb-8c72-f6edcee614b1.gif" width = 50% height = 50% >
 
 </div>
 
 
-# 更新记录
+## 更新记录
 
 |版本| 更新内容 |日期|
 |--|:--|--|
