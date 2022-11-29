@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		5448CAEC28A0F4570070807F /* FQDateTimeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FQDateTimeSDK.framework; path = FQDateTimeSDKDemo/FQDateTimeSDK.framework; sourceTree = "<group>"; };
-		5448CAEE28A0F45D0070807F /* FQDateTimeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQDateTimeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5448CAEE28A0F45D0070807F /* FQDateTimeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FQDateTimeSDKDemo.app; path = "/Users/wuwuFQ/Desktop/wuwuFQ/Object/FQDateTimeSDK/FQDateTimeSDKDemo/build/Debug-iphoneos/FQDateTimeSDKDemo.app"; sourceTree = "<absolute>"; };
 		544FF27628A0DE0100B71EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		544FF27728A0DE0100B71EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		544FF27928A0DE0100B71EED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +65,6 @@
 			children = (
 				544FF27528A0DE0100B71EED /* FQDateTimeSDKDemo */,
 				544FF29128A0DECC00B71EED /* Frameworks */,
-				5448CAEE28A0F45D0070807F /* FQDateTimeSDKDemo.app */,
 			);
 			sourceTree = "<group>";
 		};
