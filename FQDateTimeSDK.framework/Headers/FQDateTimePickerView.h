@@ -47,6 +47,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 选择器背景色
 @property (nonatomic, strong) UIColor *pickerBackgroundColor;
 
+/* 选择器面板视图
+ * pickerBackgroundColor就是设置的panelView的背景
+ * 你可以对panelView设置圆角、阴影等，
+ * ⚠️但不要修改frame
+ * e.g.: self.pickerView.panelView.layer.cornerRadius = 10;
+ */
+@property (nonatomic, strong) UIView *panelView;
+
+/* 确定按钮
+ * 按钮的外观建议通过已提供的属性设置，也可以自己扩展其他外观
+ * e.g.: confirmButton.layer.borderColor
+ * ⚠️禁止修改按钮的点击事件
+ */
+@property (nonatomic, strong) UIButton *confirmButton;
 ///确定按钮文本
 @property (nonatomic, copy) NSString *confirmText;
 ///确定按钮颜色 默认black
@@ -54,6 +68,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///确定按钮字体 默认系统18pt
 @property (nonatomic, strong) UIFont *confirmFont;
 
+/* 取消按钮
+ * 按钮的外观建议通过已提供的属性设置，也可以自己扩展其他外观
+ * e.g.: cancelButton.layer.borderColor
+ * ⚠️禁止修改按钮的点击事件
+ */
+@property (nonatomic, strong) UIButton *cancelButton;
 ///取消按钮文本
 @property (nonatomic, copy) NSString *cancelText;
 ///取消按钮颜色 默认黑色
