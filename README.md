@@ -69,7 +69,7 @@ pod 'FQDateTimeSDK'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.1.2'
+pod 'FQDateTimeSDK', '~> 1.1.3'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
