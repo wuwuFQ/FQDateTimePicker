@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   
   spec.author       = { "wuwuFQ" => "13301325631@163.com" } #GitHub 用户名  邮箱
 
-  spec.platform     = :ios, '9.0'   #使用平台
+  spec.platform     = :ios, '11.0'   #使用平台
 
   spec.source       = { :git => "https://github.com/wuwuFQ/FQDateTimeSDK.git", :tag => "#{spec.version}" } #GitHub clone地址
 
