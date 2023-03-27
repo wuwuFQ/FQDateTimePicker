@@ -118,10 +118,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示在window上（请在展示之前，设置好需要的属性）
 - (void)showPicker;
 
-/// 展示在view上（请在展示之前，设置好需要的属性）
-/// - Parameter view: <#view description#>
-- (void)showPickerInView:(UIView *)view;
-
 @end
 
 NS_ASSUME_NONNULL_END
