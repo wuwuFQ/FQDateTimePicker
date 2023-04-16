@@ -1,0 +1,6 @@
+framework module FQDateTimePicker {
+  umbrella header "FQDateTimePicker.h"
+
+  export *
+  module * { export * }
+}
