@@ -4,7 +4,7 @@
 
 
 
-# FQDateTimeSDK
+# FQDateTimePicker
 > iOS时间选择器，日期选择器；年月日、时分秒选择器。
 > 在原生控件的基础上增加`秒`的选择，和原生PickerView一样的丝滑。
 ### [博客地址，可评论](https://wuwufq.blog.csdn.net/article/details/117815524)
@@ -24,6 +24,7 @@
 
 |版本| 更新内容 |日期|
 |--|:--|--|
+|2.0 | - 重构工程，重命名Framework <br>- 代理函数有改变，其他无变化| 2023-04-16|
 |1.1.5 | - 选择器只展示在window层，避免视图错乱| 2023-03-27|
 |1.1.4 | - 修复12小时制的显示问题| 2023-03-16|
 |1.1.3 | - 暴露出面板视图、确定按钮、取消按钮，可以根据自己的业务绘制pickerView| 2023-03-15|
@@ -53,11 +54,11 @@
 ## 集成方式
 ### 手动集成
 1. 把项目`clone`或`Download ZIP`到本地
-2. 把项目内的`FQDateTimeSDK.framework`拖到你的项目里
+2. 把项目内的`FQDateTimePicker.framework`拖到你的项目里
 ![image](https://user-images.githubusercontent.com/23627803/121634046-80e0b200-cab6-11eb-8a93-e853bddddb7e.png)
-3. 如果项目报错  `Library not loaded: @rpath/FQDateTimeSDK.framework/FQDateTimeSDK`， 设置 `Embed&Sign`
+3. 如果项目报错  `Library not loaded: @rpath/FQDateTimePicker.framework/FQDateTimePicker`， 设置 `Embed&Sign`
 ![image](https://user-images.githubusercontent.com/23627803/121634466-2bf16b80-cab7-11eb-9024-b3e4afa18941.png)
-4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimeSDK.framework' was built for iOS + iOS Simulator. `
+4. 如果项目报错` Building for iOS Simulator, but the linked and embedded framework 'FQDateTimePicker.framework' was built for iOS + iOS Simulator. `
 解决方法是： `Buil Settings` --> `Build Options` --> `Validate Workspace` 改为**Yes**
 ![Xnip2022-05-14_22-26-55](https://user-images.githubusercontent.com/23627803/168431873-9f4bb708-9a7e-44ee-8989-77524b38e0d0.jpg)
 
@@ -67,11 +68,11 @@
 _这里默认大家对cocoaPods都是信手拈来的_
 1. 在Podfile引入
 ```bash
-pod 'FQDateTimeSDK'
+pod 'FQDateTimePicker'
 ```
 或者
 ```bash
-pod 'FQDateTimeSDK', '~> 1.1.5'
+pod 'FQDateTimePicker', '~> 2.0'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
@@ -88,12 +89,12 @@ pod update
 ```
 或者
 ```bash
-pod update FQDateTimeSDK --no-repo-update
+pod update FQDateTimePicker --no-repo-update
 ```
 ## 使用案列
 1. 在用到时间选择器的地方引用头文件
 ```object-c
-#import <FQDateTimeSDK/FQDateTimeSDK.h>
+#import <FQDateTimePicker/FQDateTimePicker.h>
 ```
 2. 遵循代理`FQDateTimePickerViewDelegate`
 ```
@@ -103,17 +104,19 @@ pod update FQDateTimeSDK --no-repo-update
 ```
 3. 实现代理方法
 ```
-- (void)confirmActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
-    NSLog(@"wuwuFQ：%@---%@", date, dateStr);
-}
-
-- (void)cancelActionWithTarget:(NSInteger)target {
+- (void)cancelActionFQDatetimePicker:(FQDateTimePickerView *)pickerView{
     NSLog(@"wuwuFQ：cancelAction");
 }
 
-- (void)scrollActionWithDate:(nonnull NSDate *)date withDateString:(nonnull NSString *)dateStr withTarget:(NSInteger)target {
+- (void)confirmActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
+    NSLog(@"wuwuFQ：%@---%@", date, dateStr);
+    self.contentLabel.text = dateStr;
+}
+
+- (void)scrollActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
+
 ```
 - 年月日选择器
 ```
