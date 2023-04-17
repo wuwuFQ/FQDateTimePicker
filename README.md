@@ -24,6 +24,7 @@
 
 |版本| 更新内容 |日期|
 |--|:--|--|
+|2.0.1 | - 修复获取keyWindow不正确的问题| 2023-04-17|
 |2.0 | - 重构工程，重命名Framework <br>- 代理函数有改变，其他无变化| 2023-04-16|
 |1.1.5 | - 选择器只展示在window层，避免视图错乱| 2023-03-27|
 |1.1.4 | - 修复12小时制的显示问题| 2023-03-16|
@@ -72,7 +73,7 @@ pod 'FQDateTimePicker'
 ```
 或者
 ```bash
-pod 'FQDateTimePicker', '~> 2.0'
+pod 'FQDateTimePicker', '~> 2.0.1'
 ```
 2. 在终端 cd 到你的项目根路径 
 - 下载
@@ -104,16 +105,16 @@ pod update FQDateTimePicker --no-repo-update
 ```
 3. 实现代理方法
 ```
-- (void)cancelActionFQDatetimePicker:(FQDateTimePickerView *)pickerView{
+- (void)cancelActionFQDateTimePicker:(FQDateTimePickerView *)pickerView{
     NSLog(@"wuwuFQ：cancelAction");
 }
 
-- (void)confirmActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
+- (void)confirmActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
     self.contentLabel.text = dateStr;
 }
 
-- (void)scrollActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
+- (void)scrollActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 
