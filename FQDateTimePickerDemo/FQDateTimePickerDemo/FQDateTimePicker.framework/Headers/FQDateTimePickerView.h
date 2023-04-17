@@ -23,19 +23,19 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param pickerView 用于区分pickerView
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)confirmActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+- (void)confirmActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr;
 
 @optional
 /// 取消操作
 /// @param pickerView 用于区分pickerView
-- (void)cancelActionFQDatetimePicker:(FQDateTimePickerView *)pickerView;
+- (void)cancelActionFQDateTimePicker:(FQDateTimePickerView *)pickerView;
 
 
 /// 滚动操作
 /// @param pickerView 用于区分pickerView
 /// @param date 日期NSDate
 /// @param dateStr 日期NSString
-- (void)scrollActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr;
+- (void)scrollActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr;
 
 @end
 
@@ -121,6 +121,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 展示在window上（请在展示之前，设置好需要的属性）
 - (void)showPicker;
+
+
+/// 展示在某个view上（请在展示之前，设置好需要的属性）
+/// - Parameter view: view的高度最少260
+- (void)showPickerInView:(UIView *)view;
 
 @end
 

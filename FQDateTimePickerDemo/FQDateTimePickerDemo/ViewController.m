@@ -79,16 +79,17 @@
 //    pickerView.minDate = [NSDate new];    //最小时间
     [pickerView showPicker];    //展示
 }
-- (void)cancelActionFQDatetimePicker:(FQDateTimePickerView *)pickerView{
-    NSLog(@"wuwuFQ：cancelAction");
-}
 
-- (void)confirmActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
+- (void)confirmActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
     self.contentLabel.text = dateStr;
 }
 
-- (void)scrollActionFQDatetimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
+- (void)cancelActionFQDateTimePicker:(FQDateTimePickerView *)pickerView {
+    NSLog(@"wuwuFQ：cancelAction");
+}
+
+- (void)scrollActionFQDateTimePicker:(FQDateTimePickerView *)pickerView WithDate:(NSDate *)date withDateString:(NSString *)dateStr {
     NSLog(@"wuwuFQ：%@---%@", date, dateStr);
 }
 
