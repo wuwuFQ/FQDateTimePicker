@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FQDateTimePicker"       #仓库名称
-  spec.version      = "2.0.2"               #版本号     
+  spec.version      = "2.0.3"               #版本号     
   spec.summary      = "iOS日期时间选择器." #简短的介绍
   spec.description  = <<-DESC#描述放在这里
     FQDateTimePicker：iOS日期时间选择器，完美模仿原生控件，支持年月日、时分秒、年月日时分秒格式
